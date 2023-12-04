@@ -1,6 +1,6 @@
 _base_ = [
     '../_base_/models/deeplabv3_r50-d8.py',
-    '../_base_/datasets/beachtypes_c.py',
+    '../_base_/datasets/beachtypes_conf.py',
     '../_base_/default_runtime.py',
     '../_base_/schedules/schedule_25k.py'
 ]
