@@ -1,0 +1,15 @@
+# Data configuration
+# path: ./data/yolo_v8
+train: images/train_v1 
+val: images/val_v1      
+#test: test/images   
+
+names:
+    0: Background
+    1: Blokkstrand
+    2: Leirstrand
+    3: Steinstrand
+    4: Menneskeskapt struktur
+    5: Strandberg
+    6: Sandstrand
+
